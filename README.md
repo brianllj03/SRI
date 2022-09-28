@@ -1,7 +1,7 @@
 # SRI
 
 # EjerciciosSRI Organizados por temas
-## TEMA 1
+## TEMA 0
 Nombre | Descripción
 -------|------------
-[Ejercicio1](/TEMA0/LMT1P1A1_BrianAlexander.html)
+[Ejercicio1](/TEMA0/SREI_A1_Brianalexander.docx)
