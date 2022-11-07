@@ -5,6 +5,7 @@
 ## TEMA 0
 Nombre | Descripción
 -------|------------
+[Ejercicio0](/TEMA0/repaso) | Actividades Tema 0
 [Ejercicio1](/TEMA0/SREI_A1_Brianalexander.docx) | 3 Maneras de mostrar o crear un servidor con Python
 
 ## TEMA 1
