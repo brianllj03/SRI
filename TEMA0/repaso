@@ -1,0 +1,130 @@
+Actividad de presentación de la asignatura
+
+Visualiza los siguientes videos y responde a las cuestiones planteadas a continuación
+
+Actividad 0.1 - HTTP Introduction
+https://www.youtube.com/watch?v=eesqK59rhGA
+https://www.youtube.com/watch?v=DuSURHrZG6I
+
+¿Quién, dónde y cuándo se crea el primer servidor web?
+
+El servidor web fue creado por Tim Berners-Lee. A esta eminencia de la informática le debemos también el primer navegador web y las primeras páginas HTML. Fue en 1989 en el CERM (Organización Europea para la Investigación) donde sugirió la idea de intercambiar información a través un sistema de hipertexto más fácil y rápido.
+
+¿Qué es pila de protocolos usados por http?
+
+TCP/IP
+	
+¿Componentes de una URL?
+
+El formato de una URL está compuesto por varias partes: Protocolo, Dominio, Extensión, Recurso y Parámetros. Encontramos URLs en el navegador web del ordenador y del teléfono: En la barra de direcciones que está en la parte superior del navegador y sirve para escribir una dirección conocida.
+
+¿Pasos en la recuperación de una página web mediante HTTP?
+
+Los buscadores son herramientas que permiten localizar y recuperar la información almacenada en internet. El funcionamiento es parecido a las bases de datos, almacenan las páginas con determinadas características y que posteriormente tras utilizar unas palabras clave emiten un listado de las más relevantes.
+
+Diferencia entre páginas dinámicas y estáticas
+
+En las páginas web estáticas no se utilizan bases de datos ni se requiere programación. Este tipo de webs son más económicas ya que el tiempo de programación es mucho menor que en las páginas dinámicas.
+
+Las webs dinámicas son páginas en las que su contenido es fácilmente y frecuentemente modificado. Se construyen usando lenguajes de programación en nuestro caso PHP que permite programar aplicaciones de todo tipo: blogs, foros, tiendas, etc. Requiere base de datos para almacenar la información.
+
+
+¿Cómo usar telnet para acceder a un servidor web?
+
+Para utilizar Telnet, los dos equipos que van a comunicarse deben tener el protocolo activado. Partiendo de esta base, uno de los ordenadores le envía al otro una solicitud de acceso. Al otro, que es el que hace de anfitrión, responderá solicitando un nombre de usuario y contraseña.
+
+Request. Métodos principales
+
+GET
+El método GET solicita una representación de un recurso específico. Las peticiones que usan el método GET sólo deben recuperar datos.
+
+HEAD
+El método HEAD pide una respuesta idéntica a la de una petición GET, pero sin el cuerpo de la respuesta.
+
+POST
+El método POST se utiliza para enviar una entidad a un recurso en específico, causando a menudo un cambio en el estado o efectos secundarios en el servidor.
+
+PUT
+El modo PUT reemplaza todas las representaciones actuales del recurso de destino con la carga útil de la petición.
+
+DELETE
+El método DELETE borra un recurso en específico. 
+
+Response. Códigos
+
+1.	Respuestas informativas (100–199),
+2.	Respuestas satisfactorias (200–299),
+3.	Redirecciones (300–399),
+4.	Errores de los clientes (400–499),
+5.	y errores de los servidores (500–599). 
+
+Content type. Tipos principales
+
+
+
+
+
+
+
+Actividad 0.2 - UDP and TCP: Comparison of Transport Protocols
+https://www.youtube.com/watch?v=Vdc8TCESIg8
+
+¿Diferencias entre udp y tcp? (min 4:15)
+congestion control, error detection, reliable transmission, flow control
+
+TCP es un protocolo orientado a la conexión mientras que UDP no utiliza conexión. TCP establece una conexión entre un remitente y un receptor antes de que se puedan enviar los datos. UDP en cambio, no establece ninguna conexión antes de enviar los datos.
+
+ 
+
+¿Qué aplicaciones usan tcp? http, smtp, pop, imap, ssh
+
+TELNET
+FTP (File Transfer Protocol)
+FTP Offline
+TFTP (Trivial File Transfer Protocol)
+SNMP (Simple Network Management Protocol)
+SMTP (Simple Mail Transfer Protocol)
+IP MOBIL
+Registro 
+
+
+¿Qué aplicaciones usan udp?
+
+Las aplicaciones estándares que utilizan UDP son:
+
+•	Protocolo de Transferencia de Ficheros Trivial (TFTP)
+•	Sistema de Nombres de Dominio (DNS) servidor de nombres.
+•	Llamada a Procedimiento Remoto (RPC), usado por el Sistema de Ficheros en Red (NFS)
+•	Sistema de Computación de Redes (NCS)
+
+¿Qué capa almacena el puerto?
+
+El puerto se almacena en la capa de transporte (tcp/udp)
+
+¿Qué capa almacena la dirección IP?
+
+La dirección ip se almacena en la capa de red (ip)
+
+¿Qué es three-way handshake?
+
+Un protocolo de enlace de tres vías es un método utilizado en una red
+TCP / IP para crear una conexión entre un host / cliente local y un
+servidor. Es un método de tres pasos que requiere que tanto el cliente
+como el servidor intercambien paquetes SYN y ACK (reconocimiento)
+antes de que comience la comunicación de datos real.
+Un protocolo de enlace de tres vías también se conoce como protocolo
+de enlace de TCP.
+Este protocolo de enlace de tres vías se utiliza principalmente para
+crear una conexión de socket TCP. Funciona cuando:
+•Un nodo de cliente envía un paquete de datos SYN a través de
+una red IP a un servidor en la misma red o en una red externa. El
+objetivo de este paquete es preguntar / inferir si el servidor está
+abierto para nuevas conexiones.
+•El servidor de destino debe tener puertos abiertos que puedan
+aceptar e iniciar nuevas conexiones. Cuando el servidor recibe el
+paquete   SYN   del   nodo   del   cliente, responde   y   devuelve   un
+recibo de confirmación: el paquete ACK o el paquete SYN / ACK.
+•El nodo del cliente recibe el SYN / ACK del servidor y responde
+con un paquete ACK.
+Al finalizar este proceso, se crea la conexión y el host y el servidor
+pueden comunicarse.
