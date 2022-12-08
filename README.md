@@ -6,7 +6,7 @@
 Nombre | Descripción
 -------|------------
 [Ejercicio0](/TEMA0/repaso) | Actividades Tema 0
-[Ejercicio1](/TEMA0/actpython) | 3 Maneras de mostrar o crear un servidor con Python
+[Ejercicio1](/TEMA0/README.md) | 3 Maneras de mostrar o crear un servidor con Python
 
 ## TEMA 1
 Nombre | Descripción
