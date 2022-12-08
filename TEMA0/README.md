@@ -13,5 +13,5 @@ https://gist.github.com/kabinpokhrel/6fd1275603e9d5f1e284be717cbd1bff
 
 
 
-Simple web server (ejemplo 1)
+**Simple web server (ejemplo 1)
 ![](https://github.com/brianllj03/SRI/blob/main/TEMA0/server01.jpg)
