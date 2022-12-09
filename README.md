@@ -18,5 +18,5 @@ Nombre | Descripción
 ## TRABAJO DE SRI (1ºTRIMESTRE) -->
 Nombre | Descripción
 -------|------------
-![Trabajo1trimestre](https://github.com/brianllj03/ProyectoSRI_1Trimestre) | Practica
+[Trabajo1trimestre](https://github.com/brianllj03/ProyectoSRI_1Trimestre/blob/main/README.md) | Practica
 
