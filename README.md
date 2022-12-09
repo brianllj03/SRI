@@ -16,4 +16,4 @@ Nombre | Descripción
 [Ejercicio3](/TEMA1/script03.sh) | Crea un script que nos permita crear una página web con un título, una cabecera y un mensaje
 
 ## TRABAJO DE SRI (1ºTRIMESTRE) -->
-![](https://github.com/brianllj03/ProyectoSRI_1Trimestre)
+![](https://github.com/brianllj03/ProyectoSRI_1Trimestre.git)
